@@ -4,6 +4,7 @@ body { /* 1536 x 792 (2.5) */
     margin: 0;
 }
 
+/* HEADER BEGINS */
 header img {
     position: absolute;
     max-width: 4%;
@@ -23,7 +24,7 @@ div.name {
 header ul {
     list-style-type: none;
     width: 35%;
-    margin: 0 5% 0 auto;
+    margin: 0 7% 0 auto;
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -43,3 +44,41 @@ li a {
     text-decoration: none;
     color: #FFFFFF;
 }
+/* HEADER ENDS */
+
+/* QUOTE BEGINS */
+article {
+    width: 87%;
+    height: 70%;
+    margin: 0.5% auto;
+    padding: 2% 4%;
+    overflow: hidden;
+
+    background: url('../media/city.jpg'), #40775A; /* Source: https://www.pexels.com/vi-vn/anh/anh-sang-thanh-ph-binh-minh-hoang-hon-9661740/ */
+    background-position: right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-blend-mode: color-dodge, normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+.quote {
+    position: relative;
+    top: 40%;
+    font-family: Tinos, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.3em;
+    align-items: left;
+}
+.quote_author {
+    position: relative;
+    top: 45%;
+    left: 20%;
+    font-family: Tuffy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.3em;
+    align-items: left;
+}
+/* QUOTE ENDS */
