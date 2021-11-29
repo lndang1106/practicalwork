@@ -20,7 +20,6 @@ div.name {
     font-weight: bold;
     font-size: 3em;
 }
-
 header ul {
     list-style-type: none;
     width: 35%;
@@ -34,10 +33,10 @@ header ul {
     float: right;
     clear: left;
 }
-li {
+header li {
     float: left;
 }
-li a {
+header li a {
     display: block;
     width: 5em;
     padding: 1.1em;
@@ -75,7 +74,7 @@ article {
     position: relative;
     top: 45%;
     left: 20%;
-    font-family: Tuffy;
+    font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 2.3em;
@@ -135,3 +134,194 @@ article {
 
     background: #E7774B;
 }
+.first-horizontal-line {
+    position: absolute;
+    width: 35%;
+    height: 4px;
+    left: 13.5%;
+    top: 131.8%;
+    z-index: -1;
+    
+    background-color: #F4CF3E;
+}
+.second-horizontal-line {
+    position: absolute;
+    width: 35%;
+    height: 4px;
+    left: 13.5%;
+    top: 186.9%;
+    z-index: -1;
+    
+    background-color: #F4CF3E;
+}
+.aboutme {
+    position: absolute;
+    width: 35%;
+    height: 30%;
+    left: 48.5%;
+    top: 109%;
+    padding: 4% 3.5%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #E7774B;
+    border-radius: 6px;
+}
+h1 {
+    font-family: Tuffy, sans-serif;
+    font-weight: bold;
+    font-size: 2.3em;
+    margin: 0% 0% 5% 0%;
+    align-items: left;
+}
+p {
+    font-family: Palanquin, sans-serif;
+    font-weight: thin;
+    font-size: 1.4em;
+    line-height: 2.1em;
+    align-items: left;
+}
+.hobbies {
+    position: absolute;
+    width: 35%;
+    height: 30%;
+    left: 48.5%;
+    top: 165%;
+    padding: 3.5% 3.5%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #E7774B;
+    border-radius: 6px;
+}
+.hobbies p {
+    margin-bottom: 0;
+}
+.hobbies ul {
+    margin-top: 1%;
+    font-family: Palanquin, sans-serif;
+    font-weight: thin;
+    font-size: 1.4em;
+    line-height: 2em;
+    align-items: left;
+}
+/* BODY CONTENT ENDS */
+
+/* FOOTER BEGINS */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    left: 0px;
+    top: 229.9%;
+
+    background: #40775A;
+}
+ul.footer-nav {
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Palanquin, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    align-items: center;
+    text-align: center;
+    left: 5.5%;
+}
+.footer-nav li a {
+    display: block;
+    width: 5em;
+    padding: 0.4em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-horizontal-line {
+    position: absolute;
+    width: 91%;
+    height: 4px;
+    top: 65%;
+    margin: 0 4.5%;
+    z-index: 1;
+    
+    background-color: #F4CF3E;
+}
+.left-quote {
+    position: absolute;
+    width: 25%;
+    left: 35%;
+    top: 19.5%;
+    font-family: Tinos, serif;
+    font-style: italic;
+    font-weight: thin;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    text-align: right;
+}
+.left-quote span {
+    font-family: Tuffy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2em;
+}
+.right-quote {
+    position: absolute;
+    width: 25%;
+    right: 10%;
+    top: 25%;
+    font-family: Tinos, serif;
+    font-style: italic;
+    font-weight: thin;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    text-align: right;
+}
+.right-quote span {
+    font-family: Tuffy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2em;
+}
+.footer-name {
+    position: absolute;
+    display: inline-block;
+    left: 7.8%;
+    top: 79%;
+    font-family: Palanquin, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+address {
+    position: absolute;
+    display: inline-block;
+    left: 33.3%;
+    top: 70%;
+    font-family: Palanquin, sans-serif;
+    font-style: normal;
+    font-weight: thin;
+    line-height: 1.7em;
+    font-size: 1.2em;
+    text-align: right;
+}
+ul.social-media {
+    position: absolute;
+    list-style-type: none;
+    right: 8.4%;
+    top: 73%;
+    align-items: right;
+    float: right;
+    clear: left;
+}
+.social-media li {
+    float: left;
+}
+.social-media li a {
+    display: inline-block;
+    padding: 0 0.7em 0 0.7em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.social-media img {
+    max-width: 90%;
+    height: auto;
+}
+/* FOOTER ENDS */
