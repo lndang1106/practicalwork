@@ -1,0 +1,139 @@
+body { /* 1536 x 792 (2.5) */
+    background: #36393F;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* HEADER BEGINS */
+header img {
+    position: absolute;
+    max-width: 4%;
+    height: auto;
+    left: 10%;
+    top: 2%;
+}
+div.name {
+    position: absolute;
+    left: 16%;
+    top: 1.3%;
+    display: inline;
+    font-family: Kadwa, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 120%;
+    font-size: 2em;
+}
+.name span {
+    position: absolute;
+    font-family: Palanquin, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 0.7em;
+}
+header ul {
+    list-style-type: none;
+    width: 35%;
+    margin: 0 7% 0 auto;
+    font-family: Palanquin, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    align-items: center;
+    text-align: right;
+    float: right;
+    clear: left;
+}
+header li {
+    float: left;
+}
+header li a {
+    display: block;
+    width: 5em;
+    padding: 1.1em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* HEADER ENDS */
+
+/* BODY CONTENT BEGINS */
+    /* First hobby begins */
+.first-hobby {
+    position: absolute;
+    width: 90%;
+    height: 55%;
+    top: 13%;
+    padding: 0 5%;
+    background: #E7774B;
+}
+.title1 {
+    font-family: Tuffy, sans-serif;
+    font-weight: bold;
+    font-size: 2.3em;
+    align-items: left;
+}
+.fas, .fa-book {
+    padding: 2%;
+}
+.des1 {
+    position: absolute;
+    width: 39%;
+    left: 9%;
+    font-family: Palanquin, sans-serif;
+    font-weight: thin;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    align-items: left;
+}
+.flags {
+    position: absolute;
+    display: inline;
+    top: 15%;
+    right: 9.5%;
+    align-items: right;
+    text-align: right;
+}
+img {
+    max-width: 16.3%;
+    height: auto;
+}
+    /* First hobby ends */
+.second-hobby {
+    position: absolute;
+    width: 90%;
+    height: 48%;
+    top: 68%;
+    padding: 3.5% 5%;
+    background: rgba(244, 207, 62, 0.8);
+}
+.title2 {
+    font-family: Tuffy, sans-serif;
+    font-weight: bold;
+    font-size: 3.3em;
+    align-items: left;
+}
+.fas, .fa-video {
+    padding: 2%;
+}
+.second-hobby img {
+    position: absolute;
+    display: block;
+    left: 9%;
+    top: 42%;
+}
+.des2 {
+    position: absolute;
+    width: 60%;
+    right: 6.5%;
+    margin: 3% 0;
+    font-family: Palanquin, sans-serif;
+    font-weight: thin;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    align-items: right;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
