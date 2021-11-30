@@ -20,6 +20,10 @@ div.name {
     font-weight: bold;
     font-size: 3em;
 }
+.name a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
 header ul {
     list-style-type: none;
     width: 35%;
@@ -230,7 +234,7 @@ ul.footer-nav {
 .footer-nav li a {
     display: block;
     width: 5em;
-    padding: 0.4em;
+    padding: 0.55em 0.4em;
     text-decoration: none;
     color: #FFFFFF;
 }
