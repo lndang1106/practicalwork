@@ -35,14 +35,17 @@ div.name {
     font-size: 0.7em;
 }
 header ul {
+    position: absolute;
     list-style-type: none;
-    width: 35%;
-    margin: 0 7% 0 auto;
+    display: block;
+    right: 6.75vw;
+    top: 0.4vh;
+
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5em;
-    align-items: center;
+    font-size: 1.6vw;
+    align-items: right;
     text-align: right;
     float: right;
     clear: left;
@@ -52,10 +55,18 @@ header li {
 }
 header li a {
     display: block;
-    width: 5em;
-    padding: 1.1em;
+    padding: 0vh 0.75vw;
+    margin: 0vh 1.95vw;
     text-decoration: none;
     color: #FFFFFF;
+}
+header li a:hover {
+    background: #40775A;
+    border-radius: 3%;
+}
+header li a:active {
+    background: #E7774B;
+    border-radius: 3%;
 }
 /* HEADER ENDS */
 
@@ -63,7 +74,7 @@ header li a {
 article {
     position: absolute;
     width: 91%;
-    height: 120%;
+    height: 145vh;
     top: 13%;
     margin: 0% 4.5%;
 
@@ -71,5 +82,417 @@ article {
     border: 5px solid rgba(64, 119, 90, 0.9);
     border-radius: 13px;
 }
+.intro {
+    position: absolute;
+    width: 53vw;
+    margin: 3vh 18.5vw;
 
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+    /* Education begins */
+    .education {
+        position: absolute;
+        width: 45vw;
+        height: 119vh;
+        top: 19vh;
+        margin: 0 5vw;
+        background: #E7774B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 13px;
+    }
+    .education h1 {
+        position: absolute;
+        width: 45vw;
+        margin: 4vh auto;
+
+        font-family: Tuffy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3vw;
+        align-items: center;
+        text-align: center;
+    }
+    .education .caption {
+        position: absolute;
+        width: 45vw;
+        top: 15vh;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: center;
+    }
+    .horizontal-timeline {
+        position: absolute;
+        width: 45vw;
+        height: 0.5vh;
+        top: 28vh;
+        
+        background-color: #F4CF3E;
+    }
+    .vertical-timeline {
+        position: absolute;
+        width: 0.3vw;
+        height: 91vh;
+        top: 28vh;
+        left: 6vw;
+        
+        background-color: #F4CF3E;
+    }
+    .eclipse14 {
+        position: absolute;
+        width: 1.05vw;
+        height: 2vh;
+        left: 5.65vw;
+        top: 50vh;
+        border-radius: 50%;
+        background: #40775A;
+    }
+    .year14 {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        top: 48vh;
+        left: 1.5vw;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: left;
+    }
+    .school14 {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        top: 48vh;
+        left: 13vw;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: left;
+    }
+    .eclipse18 {
+        position: absolute;
+        width: 1.05vw;
+        height: 2vh;
+        left: 5.65vw;
+        top: 70vh;
+        border-radius: 50%;
+        background: #40775A;
+    }
+    .year18 {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        top: 68vh;
+        left: 1.5vw;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: left;
+    }
+    .school18 {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        top: 68vh;
+        left: 13vw;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: left;
+    }
+    .eclipse21 {
+        position: absolute;
+        width: 1.05vw;
+        height: 2vh;
+        left: 5.65vw;
+        top: 85vh;
+        border-radius: 50%;
+        background: #40775A;
+    }
+    .year21 {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        top: 83vh;
+        left: 1.5vw;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: left;
+    }
+    .school21 {
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        top: 83vh;
+        left: 12.5vw;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        align-items: center;
+        text-align: left;
+    }
+    .education img {
+        position: absolute;
+        max-width: 25vw;
+        height: auto;
+        top: 91vh;
+        right: 2vh;
+        align-items: right;
+    }
+    /* Education ends */
+
+    /* Skills begins */
+    .skills {
+        position: absolute;
+        width: 30vw;
+        height: 55vh;
+        top: 19vh;
+        right: 5vw;
+        align-items: right;
+        background: #E7774B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 13px;
+    }
+    .skills img {
+        position: absolute;
+        max-width: 10vw;
+        height: auto;
+        top: 0.5vh;
+        right: 0.5vw;
+        align-items: right;
+    }
+    .skills h1 {
+        position: absolute;
+        width: 30vw;
+        margin: 4vh auto;
+
+        font-family: Tuffy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3vw;
+        align-items: center;
+        text-align: center;
+    }
+    .skills .caption {
+        position: absolute;
+        display: inline-block;
+        left: 8.5vw;
+        top: 10vh;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        letter-spacing: 0.1vw;
+        line-height: 5.4vh;
+        align-items: center;
+        text-align: left;
+    }
+    .skills ul {
+        margin: 0;
+        padding: 0 1vw;
+        list-style-type: none;
+    }
+    /* Skills ends */
+
+    /* Interests begins */
+    .interests {
+        position: absolute;
+        width: 30vw;
+        height: 55vh;
+        top: 83vh;
+        right: 5vw;
+        align-items: right;
+        background: #E7774B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 13px;
+    }
+    .interests h1 {
+        position: absolute;
+        width: 30vw;
+        margin: 4vh auto;
+
+        font-family: Tuffy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3vw;
+        align-items: center;
+        text-align: center;
+    }
+    .interests .caption {
+        position: absolute;
+        display: inline-block;
+        left: 3.5vw;
+        top: 11vh;
+
+        font-family: Palanquin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        letter-spacing: 0.1vw;
+        line-height: 5.4vh;
+        align-items: center;
+        text-align: left;
+    }
+    .interests ul {
+        margin: 0;
+        padding: 0 1vw;
+        list-style-type: none;
+    }
+    .interests img {
+        position: absolute;
+        max-width: 13vw;
+        height: auto;
+        top: 40vh;
+        align-items: left;
+    }
+    /* Interests ends */
 /* BODY CONTENT ENDS */
+
+/* FOOTER BEGINS */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    left: 0px;
+    top: 167vh;
+
+    background: #40775A;
+}
+ul.footer-nav {
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Palanquin, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    align-items: center;
+    text-align: center;
+    left: 5.5%;
+}
+.footer-nav li a {
+    display: block;
+    width: 5em;
+    padding: 0.55em 0.4em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-horizontal-line {
+    position: absolute;
+    width: 91%;
+    height: 0.4vh;
+    top: 65%;
+    margin: 0 4.5%;
+    z-index: 1;
+    
+    background-color: #F4CF3E;
+}
+.left-quote {
+    position: absolute;
+    width: 25%;
+    left: 35%;
+    top: 19.5%;
+    font-family: Tinos, serif;
+    font-style: italic;
+    font-weight: thin;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    text-align: right;
+}
+.left-quote span {
+    font-family: Tuffy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2em;
+}
+.right-quote {
+    position: absolute;
+    width: 25%;
+    right: 10%;
+    top: 25%;
+    font-family: Tinos, serif;
+    font-style: italic;
+    font-weight: thin;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    text-align: right;
+}
+.right-quote span {
+    font-family: Tuffy, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2em;
+}
+.footer-name {
+    position: absolute;
+    display: inline-block;
+    left: 7.8%;
+    top: 79%;
+    font-family: Palanquin, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+address {
+    position: absolute;
+    display: inline-block;
+    left: 33.3%;
+    top: 70%;
+    font-family: Palanquin, sans-serif;
+    font-style: normal;
+    font-weight: thin;
+    line-height: 1.7em;
+    font-size: 1.2em;
+    text-align: right;
+}
+ul.social-media {
+    position: absolute;
+    list-style-type: none;
+    right: 8.4%;
+    top: 73%;
+    align-items: right;
+    float: right;
+    clear: left;
+}
+.social-media li {
+    float: left;
+}
+.social-media li a {
+    display: inline-block;
+    padding: 0 0.7em 0 0.7em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.social-media img {
+    max-width: 90%;
+    height: auto;
+}
+/* FOOTER ENDS */

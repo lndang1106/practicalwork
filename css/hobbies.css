@@ -35,14 +35,17 @@ div.name {
     font-size: 0.7em;
 }
 header ul {
+    position: absolute;
     list-style-type: none;
-    width: 35%;
-    margin: 0 7% 0 auto;
+    display: block;
+    right: 6.75vw;
+    top: 0.4vh;
+
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5em;
-    align-items: center;
+    font-size: 1.6vw;
+    align-items: right;
     text-align: right;
     float: right;
     clear: left;
@@ -52,10 +55,18 @@ header li {
 }
 header li a {
     display: block;
-    width: 5em;
-    padding: 1.1em;
+    padding: 0vh 0.75vw;
+    margin: 0vh 1.95vw;
     text-decoration: none;
     color: #FFFFFF;
+}
+header li a:hover {
+    background: #40775A;
+    border-radius: 3%;
+}
+header li a:active {
+    background: #E7774B;
+    border-radius: 3%;
 }
 /* HEADER ENDS */
 
@@ -138,6 +149,9 @@ img {
     letter-spacing: 0.05em;
     align-items: right;
 }
+.des2 ul {
+    list-style-type: none;
+}
 .des2 a {
     text-decoration: none;
     color: #FFFFFF;
@@ -215,7 +229,7 @@ ul.footer-nav {
 .footer-horizontal-line {
     position: absolute;
     width: 91%;
-    height: 4px;
+    height: 0.4vh;
     top: 65%;
     margin: 0 4.5%;
     z-index: 1;
