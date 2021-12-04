@@ -51,10 +51,11 @@ header li a {
 
 /* QUOTE BEGINS */
 article {
-    width: 87%;
+    position: absolute;
+    width: 91%;
     height: 70%;
-    margin: 0.5% auto;
-    padding: 2% 4%;
+    margin: 0.5% 4.5%;
+    padding: 2% 0;
     overflow: hidden;
 
     background: url('../media/city.jpg'), #40775A; /* Source: https://www.pexels.com/vi-vn/anh/anh-sang-thanh-ph-binh-minh-hoang-hon-9661740/ */
@@ -68,6 +69,7 @@ article {
 .quote {
     position: relative;
     top: 40%;
+    left: 6%;
     font-family: Tinos, serif;
     font-style: italic;
     font-weight: normal;
@@ -77,7 +79,7 @@ article {
 .quote_author {
     position: relative;
     top: 45%;
-    left: 20%;
+    left: 25%;
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
