@@ -7,21 +7,21 @@ body { /* 1536 x 792 (2.5) */
 /* HEADER BEGINS */
 header img {
     position: absolute;
-    max-width: 4%;
+    max-width: 4vw;
     height: auto;
-    left: 10%;
-    top: 2%;
+    left: 10vw;
+    top: 2.5vh;
 }
 div.name {
     position: absolute;
-    left: 16%;
-    top: 1.3%;
+    left: 16vw;
+    top: 1.5vh;
     display: inline;
     font-family: Kadwa, sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 120%;
-    font-size: 2em;
+    font-size: 2.2vw;
 }
 .name a {
     text-decoration: none;
@@ -32,20 +32,19 @@ div.name {
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 0.7em;
+    font-size: 1.5vw;
 }
 header ul {
     position: absolute;
     list-style-type: none;
     display: block;
-    right: 6.75vw;
+    right: 7.75vw;
     top: 0.4vh;
 
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.6vw;
-    align-items: right;
     text-align: right;
     float: right;
     clear: left;
@@ -62,20 +61,20 @@ header li a {
 }
 header li a:hover {
     background: #40775A;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 header li a:active {
     background: #E7774B;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 /* HEADER ENDS */
 
 /* BODY CONTENT BEGINS */
 article {
     position: absolute;
-    width: 91%;
+    width: 90%;
     height: 145vh;
-    top: 13%;
+    top: 14%;
     margin: 0% 4.5%;
 
     background: #40775A;
@@ -106,7 +105,7 @@ article {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 13px;
     }
-    .education h1 {
+    .education h2 {
         position: absolute;
         width: 45vw;
         margin: 4vh auto;
@@ -262,9 +261,8 @@ article {
         position: absolute;
         max-width: 25vw;
         height: auto;
-        top: 91vh;
-        right: 2vh;
-        align-items: right;
+        top: 89vh;
+        right: 3vh;
     }
     /* Education ends */
 
@@ -275,7 +273,6 @@ article {
         height: 55vh;
         top: 19vh;
         right: 5vw;
-        align-items: right;
         background: #E7774B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 13px;
@@ -286,9 +283,8 @@ article {
         height: auto;
         top: 0.5vh;
         right: 0.5vw;
-        align-items: right;
     }
-    .skills h1 {
+    .skills h2 {
         position: absolute;
         width: 30vw;
         margin: 4vh auto;
@@ -329,12 +325,11 @@ article {
         height: 55vh;
         top: 83vh;
         right: 5vw;
-        align-items: right;
         background: #E7774B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 13px;
     }
-    .interests h1 {
+    .interests h2 {
         position: absolute;
         width: 30vw;
         margin: 4vh auto;
@@ -370,8 +365,7 @@ article {
         position: absolute;
         max-width: 13vw;
         height: auto;
-        top: 40vh;
-        align-items: left;
+        top: 38vh;
     }
     /* Interests ends */
 /* BODY CONTENT ENDS */
@@ -380,8 +374,8 @@ article {
 footer {
     position: absolute;
     width: 100%;
-    height: 45%;
-    left: 0px;
+    height: 45vh;
+    left: 0vw;
     top: 167vh;
 
     background: #40775A;
@@ -393,92 +387,90 @@ ul.footer-nav {
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.45vw;
     align-items: center;
     text-align: center;
-    left: 5.5%;
+    left: 5.5vw;
 }
 .footer-nav li a {
     display: block;
-    width: 5em;
-    padding: 0.55em 0.4em;
+    padding: 1.5vh 1vw;
     text-decoration: none;
     color: #FFFFFF;
 }
+.footer-nav a:hover {
+    color:#F4CF3E;
+}
 .footer-horizontal-line {
     position: absolute;
-    width: 91%;
-    height: 0.4vh;
-    top: 65%;
-    margin: 0 4.5%;
+    width: 90vw;
+    height: 0.5vh;
+    top: 29vh;
+    margin: 0 4.5vw;
     z-index: 1;
     
     background-color: #F4CF3E;
 }
 .left-quote {
     position: absolute;
-    width: 25%;
-    left: 35%;
-    top: 19.5%;
+    width: 25vw;
+    left: 35vw;
+    top: 9vh;
     font-family: Tinos, serif;
     font-style: italic;
-    font-weight: thin;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    line-height: 4.2vh;
+    font-size: 1.45vw;
     text-align: right;
 }
 .left-quote span {
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 5.6vh;
 }
 .right-quote {
     position: absolute;
-    width: 25%;
-    right: 10%;
-    top: 25%;
+    width: 25vw;
+    right: 10vw;
+    top: 11vh;
     font-family: Tinos, serif;
     font-style: italic;
-    font-weight: thin;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    line-height: 4.2vh;
+    font-size: 1.45vw;
     text-align: right;
 }
 .right-quote span {
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 5.6vh;
 }
 .footer-name {
     position: absolute;
     display: inline-block;
-    left: 7.8%;
-    top: 79%;
+    left: 7.8vw;
+    top: 35vh;
     font-family: Palanquin, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.25vw;
     text-align: center;
 }
 address {
     position: absolute;
     display: inline-block;
-    left: 33.3%;
-    top: 70%;
+    left: 33.5vw;
+    top: 31vh;
     font-family: Palanquin, sans-serif;
     font-style: normal;
-    font-weight: thin;
-    line-height: 1.7em;
-    font-size: 1.2em;
+    line-height: 4.2vh;
+    font-size: 1.25vw;
     text-align: right;
 }
 ul.social-media {
     position: absolute;
     list-style-type: none;
-    right: 8.4%;
-    top: 73%;
-    align-items: right;
+    right: 8.4vw;
+    top: 33vh;
     float: right;
     clear: left;
 }
@@ -487,7 +479,7 @@ ul.social-media {
 }
 .social-media li a {
     display: inline-block;
-    padding: 0 0.7em 0 0.7em;
+    padding: 0 0.8vw 0 0.8vw;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -496,3 +488,375 @@ ul.social-media {
     height: auto;
 }
 /* FOOTER ENDS */
+
+/*--------------------------------- BREAKING POINTS ---------------------------------*/
+@media only screen and (max-width: 1024px) {
+    /* HEADER */
+    header img {
+        max-width: 5vw;
+    }
+    div.name {
+        top: 1.5vh;
+        left: 17.5vw;
+        font-size: 2.8vw;
+    }
+    header ul {
+        top: 1vh;
+        font-size: 1.8vw;
+    }
+    header li a {
+        margin: 0vh 1.6vw;
+    }
+    /* HEADER */
+    .eclipse14 {
+        top: 49.2vh;
+    }
+    .eclipse18 {
+        top: 69.2vh;
+    }
+    .eclipse21 {
+        top: 84.2vh;
+    }
+    .education img {
+        max-width: 18vw;
+        top: 90vh;
+    }
+    .interests img {
+        top: 42vh;
+    }
+    /* FOOTER */
+    ul.footer-nav {
+        left: 3.25vw;
+        font-size: 1.9vw;
+    }
+    .left-quote {
+        width: 32vw;
+        top: 8.5vh;
+        left: 28vw;
+        font-size: 1.9vw;
+    }
+    .right-quote {
+        width: 26vw;
+        font-size: 1.9vw;
+    }
+    .footer-name {
+        top: 35.5vh;
+        font-size: 1.3vw;
+    }
+    ul.social-media {
+        top: 32.5vh;
+    }
+    .social-media img {
+        max-width: 75%;
+    }
+    /* FOOTER */
+}
+@media only screen and (max-width: 992px) {
+    /* HEADER */
+    div.name {
+        top: 1.9vh;
+    }
+    header ul {
+        top: 1vh;
+        font-size: 1.7vw;
+    }
+    /* HEADER */
+    article {
+        height: 130vh;
+        top: 11vh;
+    }
+    .education {
+        height: 109vh;
+        top: 15vh;
+    }
+    .horizontal-timeline {
+        top: 25vh;
+    }
+    .vertical-timeline {
+        width: 0.3vw;
+        height: 84vh;
+        top: 25vh;
+        left: 6vw;
+    }
+    .year14 {
+        top: 45vh;
+    }
+    .eclipse14 {
+        width: 1.45vw;
+        top: 46.2vh;
+        left: 5.4vw;
+    }
+    .school14 {
+        top: 45vh;
+    }
+    .year18 {
+        top: 65vh;
+    }
+    .eclipse18 {
+        width: 1.45vw;
+        top: 66.2vh;
+        left: 5.4vw;
+    }
+    .school18 {
+        top: 65vh;
+    }
+    .year21 {
+        top: 80vh;
+    }
+    .eclipse21 {
+        width: 1.45vw;
+        top: 81.2vh;
+        left: 5.4vw;
+    }
+    .school21 {
+        top: 80vh;
+    }
+    .education img {
+        max-width: 13vw;
+        top: 89vh;
+    }
+    .skills {
+        height: 50vh;
+        top: 15vh;
+    }
+    .skills .caption {
+        left: 8vw;
+        line-height: 4.7vh;
+    }
+    .interests {
+        height: 50vh;
+        top: 74vh;
+    }
+    .interests img {
+        max-width: 10vw;
+    }
+    /* FOOTER BEGINS */
+    footer {
+        height: 40vh;
+        top: 148vh;
+    }
+    .footer-nav {
+        padding-left: 2.5vw;
+    }
+    .left-quote {
+        top: 6vh;
+    }
+    .right-quote {
+        top: 8vh;
+    }
+    .left-quote span, .right-quote span {
+        line-height: 5vh;
+    }
+    .footer-horizontal-line {
+        height: 0.45vh;
+        top: 25vh;
+    }
+    .footer-name {
+        left: 8vw;
+        top: 31vh;
+    }
+    address {
+        top: 26.5vh;
+    }
+    ul.social-media {
+        right: 7.5vw;
+        top: 28.5vh;
+    }
+    .social-media li a {
+        padding: 0 0.1vw 0 0.1vw;
+    }
+    .social-media img {
+        max-width: 60%;
+        height: auto;
+    }
+    /* FOOTER ENDS */
+}
+
+@media only screen and (max-width: 600px) {
+    /* HEADER */
+    header img {
+        max-width: 7vw;
+    }
+    div.name {
+        top: 2vh;
+        left: 20vw;
+        font-size: 3.8vw;
+        line-height: 3.7vh;
+    }
+    .name span {
+        font-size: 3vw;
+    }
+    header ul {
+        top: 0.7vh;
+        font-size: 3vw;
+    }
+    header li a {
+        margin: 0vh 2vw;
+    }
+    /* HEADER */
+    article {
+        height: 212vh;
+    }
+    .intro {
+        width: 80vw;
+        margin: 3vh 5vw;
+        font-size: 2.2vw;
+    }
+    .education {
+        width: 80vw;
+        height: 91vh;
+        top: 13vh;
+    }
+    .education h2 {
+        width: 80vw;
+        font-size: 4.5vw;
+    }
+    .education .caption {
+        width: 80vw;
+        top: 11vh;
+        font-size: 3vw;
+    }
+    .horizontal-timeline {
+        width: 80vw;
+        top: 21vh;
+    }
+    .vertical-timeline {
+        width: 0.7vw;
+        height: 70vh;
+        top: 21vh;
+        left: 10vw;
+    }
+    .year14 {
+        top: 35.5vh;
+        font-size: 3vw;
+    }
+    .eclipse14 {
+        width: 2.4vw;
+        top: 37.2vh;
+        left: 9.2vw;
+    }
+    .school14 {
+        top: 35.5vh;
+        font-size: 3vw;
+        left: 20vw;
+    }
+    .year18 {
+        top: 55.5vh;
+        font-size: 3vw;
+    }
+    .eclipse18 {
+        width: 2.4vw;
+        top: 57.2vh;
+        left: 9.2vw;
+    }
+    .school18 {
+        top: 55.5vh;
+        font-size: 3vw;
+        left: 20vw;
+    }
+    .year21 {
+        top: 71.5vh;
+        font-size: 3vw;
+    }
+    .eclipse21 {
+        width: 2.4vw;
+        top: 73.2vh;
+        left: 9.2vw;
+    }
+    .school21 {
+        top: 71.5vh;
+        font-size: 3vw;
+        left: 20vw;
+    }
+    .education img {
+        max-width: 15vw;
+        top: 77vh;
+    }
+    .skills {
+        width: 80vw;
+        top: 110vh;
+    }
+    .skills h2 {
+        width: 80vw;
+        font-size: 4.5vw;
+    }
+    .skills .caption {
+        left: 27vw;
+        font-size: 3vw;
+    }
+    .skills img {
+        max-width: 18vw;
+        right: 2vw;
+    }
+    .interests {
+        width: 80vw;
+        height: 40vh;
+        top: 166vh;
+    }
+    .interests h2 {
+        width: 80vw;
+        font-size: 4.5vw;
+    }
+    .interests .caption {
+        left: 20vw;
+        font-size: 3vw;
+    }
+    .interests img {
+        max-width: 23vw;
+        top: 27vh;
+        right: 0vw;
+    }
+    /* FOOTER */
+    footer {
+        height: 30vh;
+        top: 230vh;
+    }
+    .footer-nav {
+        padding-left: 4.5vw;
+    }
+    .footer-nav li a{
+        text-align: left;
+        font-size: 2.5vw;
+        padding: 1.1vh 0vw;
+    }
+    .left-quote {
+        width: 40vw;
+        top: 4.1vh;
+        left: 50.5vw;
+        font-size: 2.5vw;
+    }
+    .right-quote {
+        display: none;
+    }
+    .left-quote span {
+        line-height: 4vh;
+    }
+    .footer-horizontal-line {
+        width: 91vw;
+        height: 0.3vh;
+        top: 20vh;
+    }
+    .footer-name {
+        display: none;
+    }
+    address {
+        top: 21.5vh;
+        left: 10vw;
+        font-size: 2vw;
+        line-height: 2.5vh;
+        text-align: left;
+    }
+    ul.social-media {
+        right: 6vw;
+        top: 21vh;
+    }
+    .social-media a {
+        width: 8vw;
+        padding: 0;
+    }
+    .social-media img {
+        max-width: 60%;
+        height: auto;
+    }
+    /* FOOTER */
+}

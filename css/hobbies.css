@@ -7,21 +7,21 @@ body { /* 1536 x 792 (2.5) */
 /* HEADER BEGINS */
 header img {
     position: absolute;
-    max-width: 4%;
+    max-width: 4vw;
     height: auto;
-    left: 10%;
-    top: 2%;
+    left: 10vw;
+    top: 2.5vh;
 }
 div.name {
     position: absolute;
-    left: 16%;
-    top: 1.3%;
+    left: 16vw;
+    top: 1.5vh;
     display: inline;
     font-family: Kadwa, sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 120%;
-    font-size: 2em;
+    font-size: 2.2vw;
 }
 .name a {
     text-decoration: none;
@@ -32,7 +32,7 @@ div.name {
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 0.7em;
+    font-size: 1.5vw;
 }
 header ul {
     position: absolute;
@@ -45,7 +45,6 @@ header ul {
     font-style: normal;
     font-weight: normal;
     font-size: 1.6vw;
-    align-items: right;
     text-align: right;
     float: right;
     clear: left;
@@ -62,11 +61,11 @@ header li a {
 }
 header li a:hover {
     background: #40775A;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 header li a:active {
     background: #E7774B;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 /* HEADER ENDS */
 
@@ -75,41 +74,39 @@ header li a:active {
 .first-hobby {
     position: absolute;
     width: 90%;
-    height: 55%;
-    top: 13%;
+    height: 55vh;
+    top: 13vh;
     padding: 0 5%;
     background: #E7774B;
 }
 .title1 {
+    margin: 0;
     font-family: Tuffy, sans-serif;
     font-weight: bold;
-    font-size: 2.5em;
-    align-items: left;
+    font-size: 2.6vw;
 }
 .fas, .fa-book {
-    padding: 2%;
+    padding: 2vw;
 }
 .des1 {
     position: absolute;
-    width: 39%;
-    left: 10%;
+    width: 38vw;
+    left: 10vw;
     font-family: Palanquin, sans-serif;
-    font-weight: thin;
-    font-size: 1.4em;
-    line-height: 1.5em;
+    font-size: 1.45vw;
+    line-height: 4.2vh;
     letter-spacing: 0.05em;
-    align-items: left;
+    z-index: 1;
 }
 .flags {
     position: absolute;
-    display: inline;
-    top: 15%;
-    right: 9.5%;
-    align-items: right;
+    top: 8.75vh;
+    right: 9.4vw;
     text-align: right;
+    z-index: 0;
 }
 img {
-    max-width: 16.3%;
+    max-width: 14.5vw;
     height: auto;
 }
     /* First hobby ends */
@@ -117,37 +114,36 @@ img {
 .second-hobby {
     position: absolute;
     width: 90%;
-    height: 48%;
-    top: 68%;
-    padding: 3.5% 5%;
+    height: 55vh;
+    top: 68vh;
+    padding: 0 5%; /* 3.5 */
     background: rgba(244, 207, 62, 0.8);
 }
 .title2 {
+    margin: 0;
     font-family: Tuffy, sans-serif;
     font-weight: bold;
-    font-size: 3em;
-    align-items: left;
+    font-size: 3.1vw;
+    margin-top: 4vh;
 }
 .fas, .fa-video {
-    padding: 2%;
+    padding: 2vw;
 }
 .second-hobby img {
     position: absolute;
     display: block;
-    left: 10%;
-    top: 42%;
+    left: 10vw;
+    top: 23vh;
 }
 .des2 {
     position: absolute;
-    width: 60%;
-    right: 9%;
+    width: 59.5vw;
+    right: 8.5vw;
     margin: 2.5% 0;
     font-family: Palanquin, sans-serif;
-    font-weight: thin;
-    font-size: 1.6em;
-    line-height: 1.5em;
+    font-size: 1.65vw;
+    line-height: 4.8vh;
     letter-spacing: 0.05em;
-    align-items: right;
 }
 .des2 ul {
     list-style-type: none;
@@ -156,21 +152,25 @@ img {
     text-decoration: none;
     color: #FFFFFF;
 }
+.des2 a:hover {
+    color: #40775A;
+}
     /* Second hobby ends */
     /* Third hobby begins */
 .third-hobby {
     position: absolute;
     width: 90%;
-    height: 50%;
-    top: 129.4%;
-    padding: 2.5% 5%;
+    height: 55vh;
+    top: 123vh;
+    padding: 0 5%; /* 2.5 */
     background: #E7774B;
 }
 .title3 {
+    margin: 0;
     font-family: Tuffy, sans-serif;
     font-weight: bold;
-    font-size: 2.8em;
-    align-items: left;
+    font-size: 2.9vw;
+    margin-top: 2.5vh;
 }
 .fas, .fa-headphones {
     padding: 2%;
@@ -178,21 +178,18 @@ img {
 .third-hobby img {
     position: absolute;
     display: block;
-    right: 9.5%;
-    top: 30%;
-    align-items: right;
+    right: 9.25vw;
+    top: 15vh;
 }
 .des3 {
     position: absolute;
-    width: 58%;
-    left: 10%;
+    width: 58vw;
+    left: 10vw;
     margin: 1.5% 0;
     font-family: Palanquin, sans-serif;
-    font-weight: thin;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.55vw;
+    line-height: 4.5vh;
     letter-spacing: 0.05em;
-    align-items: left;
 }
     /* Third hobby ends */
 /* BODY CONTENT ENDS */
@@ -201,9 +198,9 @@ img {
 footer {
     position: absolute;
     width: 100%;
-    height: 45%;
-    left: 0px;
-    top: 189%;
+    height: 45vh;
+    left: 0vw;
+    top: 178vh;
 
     background: #40775A;
 }
@@ -214,92 +211,90 @@ ul.footer-nav {
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.45vw;
     align-items: center;
     text-align: center;
-    left: 5.5%;
+    left: 5.5vw;
 }
 .footer-nav li a {
     display: block;
-    width: 5em;
-    padding: 0.55em 0.4em;
+    padding: 1.5vh 1vw;
     text-decoration: none;
     color: #FFFFFF;
 }
+.footer-nav a:hover {
+    color:#F4CF3E;
+}
 .footer-horizontal-line {
     position: absolute;
-    width: 91%;
-    height: 0.4vh;
-    top: 65%;
-    margin: 0 4.5%;
+    width: 90vw;
+    height: 0.5vh;
+    top: 29vh;
+    margin: 0 4.5vw;
     z-index: 1;
     
     background-color: #F4CF3E;
 }
 .left-quote {
     position: absolute;
-    width: 25%;
-    left: 35%;
-    top: 19.5%;
+    width: 25vw;
+    left: 35vw;
+    top: 9vh;
     font-family: Tinos, serif;
     font-style: italic;
-    font-weight: thin;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    line-height: 4.2vh;
+    font-size: 1.45vw;
     text-align: right;
 }
 .left-quote span {
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 5.6vh;
 }
 .right-quote {
     position: absolute;
-    width: 25%;
-    right: 10%;
-    top: 25%;
+    width: 25vw;
+    right: 10vw;
+    top: 11vh;
     font-family: Tinos, serif;
     font-style: italic;
-    font-weight: thin;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    line-height: 4.2vh;
+    font-size: 1.45vw;
     text-align: right;
 }
 .right-quote span {
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 5.6vh;
 }
 .footer-name {
     position: absolute;
     display: inline-block;
-    left: 7.8%;
-    top: 79%;
+    left: 7.8vw;
+    top: 35vh;
     font-family: Palanquin, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.25vw;
     text-align: center;
 }
 address {
     position: absolute;
     display: inline-block;
-    left: 33.3%;
-    top: 70%;
+    left: 33.5vw;
+    top: 31vh;
     font-family: Palanquin, sans-serif;
     font-style: normal;
-    font-weight: thin;
-    line-height: 1.7em;
-    font-size: 1.2em;
+    line-height: 4.2vh;
+    font-size: 1.25vw;
     text-align: right;
 }
 ul.social-media {
     position: absolute;
     list-style-type: none;
-    right: 8.4%;
-    top: 73%;
-    align-items: right;
+    right: 8.4vw;
+    top: 33vh;
     float: right;
     clear: left;
 }
@@ -308,7 +303,7 @@ ul.social-media {
 }
 .social-media li a {
     display: inline-block;
-    padding: 0 0.7em 0 0.7em;
+    padding: 0 0.8vw 0 0.8vw;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -317,3 +312,282 @@ ul.social-media {
     height: auto;
 }
 /* FOOTER ENDS */
+
+/*--------------------------------- BREAKING POINTS ---------------------------------*/
+@media only screen and (max-width: 1024px) {
+    /* HEADER */
+    header img {
+        max-width: 5vw;
+    }
+    div.name {
+        top: 1.5vh;
+        left: 17.5vw;
+        font-size: 2.8vw;
+    }
+    header ul {
+        top: 1vh;
+        font-size: 1.8vw;
+    }
+    /* HEADER */
+    .title1 {
+        margin-top: 2vh;
+    }
+    .des1 {
+        width: 42vw;
+        top: 12vh;
+        font-size: 1.6vw;
+    }
+    .flags {
+        top: 12vh;
+    }
+    img {
+        max-width: 15.75vw;
+    }
+    .second-hobby img {
+        top: 19.5vh;
+    }
+    .title3 {
+        margin-top: 4vh;
+    }
+    .third-hobby img {
+        top: 17vh;
+    }
+    /* FOOTER */
+    ul.footer-nav {
+        left: 3.25vw;
+        font-size: 1.9vw;
+    }
+    .left-quote {
+        width: 32vw;
+        top: 8.5vh;
+        left: 28vw;
+        font-size: 1.9vw;
+    }
+    .right-quote {
+        width: 26vw;
+        font-size: 1.9vw;
+    }
+    .footer-name {
+        top: 35.5vh;
+        font-size: 1.3vw;
+    }
+    ul.social-media {
+        top: 32.5vh;
+    }
+    .social-media img {
+        max-width: 75%;
+    }
+    /* FOOTER */
+}
+@media only screen and (max-width: 992px) {
+    /* HEADER */
+    div.name {
+        top: 1.9vh;
+    }
+    header ul {
+        top: 1vh;
+        font-size: 1.7vw;
+    }
+    /* HEADER */
+    .first-hobby {
+        height: 50vh;
+        top: 11vh;
+    }
+    .title1 {
+        line-height: 9vh;
+        font-size: 2.7vw;
+    }
+    .des1 {
+        width: 41vw;
+        line-height: 4.3vh;
+        font-size: 1.55vw;
+    }
+    .flags {
+        top: 11vh;
+    }
+    img {
+        max-width: 15vw;
+    }
+    .second-hobby {
+        height: 50vh;
+        top: 61vh;
+    }
+    .title2 {
+        margin-top: 4.5vh;
+        font-size: 3.2vw;
+    }
+    .second-hobby img {
+        top: 20.5vh;
+    }
+    .third-hobby {
+        height: 50vh;
+        top: 111vh;
+    }
+    .title3 {
+        margin-top: 3vh;
+    }
+    /* FOOTER BEGINS */
+    footer {
+        height: 40vh;
+        top: 161vh;
+    }
+    .footer-nav {
+        padding-left: 2.5vw;
+    }
+    .left-quote {
+        top: 6vh;
+    }
+    .right-quote {
+        top: 8vh;
+    }
+    .left-quote span, .right-quote span {
+        line-height: 5vh;
+    }
+    .footer-horizontal-line {
+        height: 0.45vh;
+        top: 25vh;
+    }
+    .footer-name {
+        left: 8vw;
+        top: 31vh;
+    }
+    address {
+        top: 26.5vh;
+    }
+    ul.social-media {
+        right: 7.5vw;
+        top: 28.5vh;
+    }
+    .social-media li a {
+        padding: 0 0.1vw 0 0.1vw;
+    }
+    .social-media img {
+        max-width: 60%;
+        height: auto;
+    }
+    /* FOOTER ENDS */
+}
+
+@media only screen and (max-width: 600px) {
+    /* HEADER */
+    header img {
+        max-width: 7vw;
+    }
+    div.name {
+        top: 2vh;
+        left: 20vw;
+        font-size: 3.8vw;
+        line-height: 3.7vh;
+    }
+    .name span {
+        font-size: 3vw;
+    }
+    header ul {
+        top: 0.7vh;
+        font-size: 3vw;
+    }
+    header li a {
+        margin: 0vh 1.3vw;
+    }
+    /* HEADER */
+    .title1 {
+        font-size: 3.6vw;
+        line-height: 8.5vh;
+        text-align: center;
+    }
+    .des1 {
+        width: 82vw;
+        font-size: 3.1vw;
+    }
+    .flags {
+        top: 18.5vh;
+        right: 9.3vw;
+    }
+    img {
+        max-width: 17vw;
+    }
+    .title2 {
+        margin-top: 5vh;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .second-hobby img {
+        max-width: 23%;
+        height: auto;
+        top: 27.5vh;
+        left: 61vw;
+
+    }
+    .des2 {
+        width: 82vw;
+        font-size: 3.1vw;
+        letter-spacing: 0vw;
+    }
+    .title3 {
+        margin-top: 2.5vh;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .des3 {
+        width: 82vw;
+        margin-top: 2vh;
+        font-size: 2.8vw;
+        line-height: 4vh;
+    }
+    .third-hobby img {
+        display: none;
+    }
+    /* FOOTER */
+    footer {
+        height: 30vh;
+        top: 161vh;
+    }
+    .footer-nav {
+        padding-left: 4.5vw;
+    }
+    .footer-nav li a{
+        text-align: left;
+        font-size: 2.5vw;
+        padding: 1.1vh 0vw;
+    }
+    .left-quote {
+        width: 40vw;
+        top: 4.1vh;
+        left: 50.5vw;
+        font-size: 2.5vw;
+    }
+    .right-quote {
+        display: none;
+    }
+    .left-quote span {
+        line-height: 4vh;
+    }
+    .footer-horizontal-line {
+        width: 91vw;
+        height: 0.3vh;
+        top: 20vh;
+    }
+    .footer-name {
+        display: none;
+    }
+    address {
+        top: 21.5vh;
+        left: 10vw;
+        font-size: 2vw;
+        line-height: 2.5vh;
+        text-align: left;
+    }
+    ul.social-media {
+        right: 6vw;
+        top: 21vh;
+    }
+    .social-media a {
+        width: 8vw;
+        padding: 0;
+    }
+    .social-media img {
+        max-width: 60%;
+        height: auto;
+    }
+    /* FOOTER */
+}

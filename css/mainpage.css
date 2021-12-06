@@ -7,18 +7,20 @@ body { /* 1536 x 792 (2.5) */
 /* HEADER BEGINS */
 header img {
     position: absolute;
-    max-width: 4%;
+    max-width: 4vw;
     height: auto;
-    left: 10%;
-    top: 2%;
+    left: 10vw;
+    top: 2.5vh;
 }
 div.name {
-    margin-left: 16%;
+    position: absolute;
+    left: 16vw;
+    top: 0.75vh;
     display: inline;
     font-family: Kadwa, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.1vw;
 }
 .name a {
     text-decoration: none;
@@ -35,7 +37,6 @@ header ul {
     font-style: normal;
     font-weight: normal;
     font-size: 1.6vw;
-    align-items: right;
     text-align: right;
     float: right;
     clear: left;
@@ -52,26 +53,27 @@ header li a {
 }
 header li a:hover {
     background: #40775A;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 header li a:active {
     background: #E7774B;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 /* HEADER ENDS */
 
 /* QUOTE BEGINS */
 article {
     position: absolute;
-    width: 91%;
-    height: 70%;
-    margin: 0.5% 4.5%;
-    padding: 2% 0;
+    width: 90vw;
+    height: 70vh;
+    top: 13vh;
+    margin: 0 4.5vw;
+    padding: 4vh 0;
     overflow: hidden;
 
     background: url('../media/city.jpg'), #40775A; /* Source: https://www.pexels.com/vi-vn/anh/anh-sang-thanh-ph-binh-minh-hoang-hon-9661740/ */
     background-position: right;
-    background-size: 70%;
+    background-size: 63vw;
     background-repeat: no-repeat;
     background-blend-mode: color-dodge, normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -79,23 +81,22 @@ article {
 }
 .quote {
     position: relative;
-    top: 40%;
-    left: 6%;
+    top: 29vh;
+    left: 5.5vw;
+    margin: 0;
     font-family: Tinos, serif;
     font-style: italic;
     font-weight: normal;
-    font-size: 2.3em;
-    align-items: left;
+    font-size: 2.4vw;
 }
 .quote_author {
     position: relative;
-    top: 45%;
-    left: 25%;
+    top: 31vh;
+    left: 23vw;
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.3em;
-    align-items: left;
+    font-size: 2.4vw;
 }
 /* QUOTE ENDS */
 
@@ -110,73 +111,47 @@ article {
     
     background-color: #F4CF3E;
 }
-.first-green-circle {
+.first-eclipse {
     position: absolute;
-    width: 2em;
-    height: 2em;
-    left: 11.45%;
-    top: 130%;
-    border-radius: 50%;
-
-    background: #40775A;
+    width: 2.1vw;
+    height: auto;
+    left: -0.9vw;
+    top: 45vh;
 }
-.first-orange-circle {
+.second-eclipse {
     position: absolute;
-    width: 1.3em;
-    height: 1.3em;
-    left: 11.8%;
-    top: 130.7%;
-    border-radius: 50%;
-
-    background: #E7774B;
-}
-.second-green-circle {
-    position: absolute;
-    width: 2em;
-    height: 2em;
-    left: 11.45%;
-    top: 185%;
-    border-radius: 50%;
-
-    background: #40775A;
-}
-.second-orange-circle {
-    position: absolute;
-    width: 1.3em;
-    height: 1.3em;
-    left: 11.8%;
-    top: 185.8%;
-    border-radius: 50%;
-
-    background: #E7774B;
+    width: 2.1vw;
+    height: auto;
+    left: -0.9vw;
+    top: 100vh;
 }
 .first-horizontal-line {
     position: absolute;
-    width: 35%;
-    height: 4px;
-    left: 13.5%;
-    top: 131.8%;
+    width: 35vw;
+    height: 0.5vh;
+    left: 1.1vw;
+    top: 46.9vh;
     z-index: -1;
     
     background-color: #F4CF3E;
 }
 .second-horizontal-line {
     position: absolute;
-    width: 35%;
-    height: 4px;
-    left: 13.5%;
-    top: 186.9%;
+    width: 35vw;
+    height: 0.5vh;
+    left: 1.1vw;
+    top: 101.9vh;
     z-index: -1;
     
     background-color: #F4CF3E;
 }
 .aboutme {
     position: absolute;
-    width: 35%;
-    height: 30%;
-    left: 48.5%;
-    top: 109%;
-    padding: 4% 3.5%;
+    width: 34.75vw;
+    height: 30vh;
+    left: 48vw;
+    top: 109vh;
+    padding: 7.5vh 3.5vw;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background: #E7774B;
@@ -185,24 +160,21 @@ article {
 h1 {
     font-family: Tuffy, sans-serif;
     font-weight: bold;
-    font-size: 2.3em;
-    margin: 0% 0% 5% 0%;
-    align-items: left;
+    font-size: 2.4vw;
+    margin: 0 0 4vh 0;
 }
 p {
     font-family: Palanquin, sans-serif;
-    font-weight: thin;
-    font-size: 1.4em;
-    line-height: 2.1em;
-    align-items: left;
+    font-size: 1.45vw;
+    line-height: 6vh;
 }
 .hobbies {
     position: absolute;
-    width: 35%;
-    height: 30%;
-    left: 48.5%;
-    top: 165%;
-    padding: 3.5% 3.5%;
+    width: 34.75vw;
+    height: 30vh;
+    left: 48vw;
+    top: 165vh;
+    padding: 7vh 3.5vw;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background: #E7774B;
@@ -212,13 +184,11 @@ p {
     margin-bottom: 0;
 }
 .hobbies ul {
-    margin-top: 1%;
+    margin-top: 0.5vh;
     list-style-type: none;
     font-family: Palanquin, sans-serif;
-    font-weight: thin;
-    font-size: 1.4em;
-    line-height: 2em;
-    align-items: left;
+    font-size: 1.45vw;
+    line-height: 5.5vh;
 }
 /* BODY CONTENT ENDS */
 
@@ -226,105 +196,103 @@ p {
 footer {
     position: absolute;
     width: 100%;
-    height: 45%;
-    left: 0px;
-    top: 229.9%;
+    height: 45vh;
+    left: 0vw;
+    top: 230vh;
 
     background: #40775A;
 }
-ul.footer-nav {
+.footer-nav {
     position: absolute;
     list-style-type: none;
     display: inline-block;
     font-family: Palanquin, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.45vw;
     align-items: center;
     text-align: center;
-    left: 5.5%;
+    left: 5.5vw;
 }
 .footer-nav li a {
     display: block;
-    width: 5em;
-    padding: 0.55em 0.4em;
+    padding: 1.5vh 1vw;
     text-decoration: none;
     color: #FFFFFF;
 }
+.footer-nav a:hover {
+    color:#F4CF3E;
+}
 .footer-horizontal-line {
     position: absolute;
-    width: 91%;
+    width: 90vw;
     height: 0.5vh;
-    top: 65%;
-    margin: 0 4.5%;
+    top: 29vh;
+    margin: 0 4.5vw;
     z-index: 1;
     
     background-color: #F4CF3E;
 }
 .left-quote {
     position: absolute;
-    width: 25%;
-    left: 35%;
-    top: 19.5%;
+    width: 25vw;
+    left: 35vw;
+    top: 9vh;
     font-family: Tinos, serif;
     font-style: italic;
-    font-weight: thin;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    line-height: 4.2vh;
+    font-size: 1.45vw;
     text-align: right;
 }
 .left-quote span {
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 5.6vh;
 }
 .right-quote {
     position: absolute;
-    width: 25%;
-    right: 10%;
-    top: 25%;
+    width: 25vw;
+    right: 10vw;
+    top: 11vh;
     font-family: Tinos, serif;
     font-style: italic;
-    font-weight: thin;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    line-height: 4.2vh;
+    font-size: 1.45vw;
     text-align: right;
 }
 .right-quote span {
     font-family: Tuffy, sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 5.6vh;
 }
 .footer-name {
     position: absolute;
     display: inline-block;
-    left: 7.8%;
-    top: 79%;
+    left: 7.8vw;
+    top: 35vh;
     font-family: Palanquin, sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.25vw;
     text-align: center;
 }
 address {
     position: absolute;
     display: inline-block;
-    left: 33.3%;
-    top: 70%;
+    left: 33.5vw;
+    top: 31vh;
     font-family: Palanquin, sans-serif;
     font-style: normal;
-    font-weight: thin;
-    line-height: 1.7em;
-    font-size: 1.2em;
+    line-height: 4.2vh;
+    font-size: 1.25vw;
     text-align: right;
 }
 ul.social-media {
     position: absolute;
     list-style-type: none;
-    right: 8.4%;
-    top: 73%;
-    align-items: right;
+    right: 8.4vw;
+    top: 33vh;
     float: right;
     clear: left;
 }
@@ -333,7 +301,7 @@ ul.social-media {
 }
 .social-media li a {
     display: inline-block;
-    padding: 0 0.7em 0 0.7em;
+    padding: 0 0.8vw 0 0.8vw;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -342,3 +310,317 @@ ul.social-media {
     height: auto;
 }
 /* FOOTER ENDS */
+
+/*--------------------------------- BREAKING POINTS ---------------------------------*/
+@media only screen and (max-width: 1024px) {
+    /* HEADER */
+    header img {
+        max-width: 5vw;
+    }
+    div.name {
+        top: 1vh;
+        left: 18vw;
+        font-size: 3.5vw;
+    }
+    header ul {
+        top: 1vh;
+        font-size: 1.8vw;
+    }
+    /* HEADER */
+    .first-horizontal-line {
+        top: 46.5vh;
+    }
+    .second-horizontal-line {
+        top: 101.5vh;
+    }
+    /* FOOTER */
+    .footer-nav {
+        left: 3.25vw;
+        font-size: 1.9vw;
+    }
+    .left-quote {
+        width: 32vw;
+        top: 8.5vh;
+        left: 28vw;
+        font-size: 1.9vw;
+    }
+    .right-quote {
+        width: 26vw;
+        font-size: 1.9vw;
+    }
+    .footer-name {
+        top: 35.5vh;
+        font-size: 1.3vw;
+    }
+    ul.social-media {
+        top: 32.5vh;
+    }
+    .social-media img {
+        max-width: 75%;
+    }
+    /* FOOTER */
+}
+@media only screen and (max-width: 992px) {
+    /* HEADER */
+    div.name {
+        top: 1.3vh;
+    }
+    header ul {
+        top: 1vh;
+    }
+    /* HEADER */
+    article {
+        top: 11vh;
+    }
+    .quote {
+        top: 31vh;
+    }
+    .quote_author {
+        top: 33vh;
+    }
+    .vertical-line {
+        height: 118vh;
+    }
+    .first-eclipse {
+        top: 35vh;
+    }
+    .first-horizontal-line {
+        width: 36vw;
+        height: 0.45vh;
+        top: 36.3vh;
+    }
+    .second-eclipse {
+        top: 85vh;
+    }
+    .second-horizontal-line {
+        width: 36vw;
+        height: 0.45vh;
+        top: 86.3vh
+    }
+    .aboutme {
+        height: 26vh;
+        top: 101vh;
+        left: 49vw;
+        padding: 7vh 3.5vw;
+    }
+    h1 {
+        margin: 0;
+    }
+    p {
+        margin-top: 1vh;
+    }
+    .hobbies p {
+        margin-top: 1.5vh;
+    }
+    .hobbies {
+        height: 25vh;
+        top: 152vh;
+        left: 49vw;
+    }
+    /* FOOTER */
+    footer {
+        height: 40vh;
+        top: 203vh;
+    }
+    .footer-nav {
+        padding-left: 2.5vw;
+    }
+    .left-quote {
+        top: 6vh;
+    }
+    .right-quote {
+        top: 8vh;
+    }
+    .left-quote span, .right-quote span {
+        line-height: 5vh;
+    }
+    .footer-horizontal-line {
+        height: 0.45vh;
+        top: 25vh;
+    }
+    .footer-name {
+        left: 8vw;
+        top: 31vh;
+    }
+    address {
+        top: 26.5vh;
+    }
+    ul.social-media {
+        right: 7.5vw;
+        top: 28.5vh;
+    }
+    .social-media li a {
+        padding: 0 0.1vw 0 0.1vw;
+    }
+    .social-media img {
+        max-width: 60%;
+        height: auto;
+    }
+    /* FOOTER */
+}
+
+@media only screen and (max-width: 600px) {
+    /* HEADER */
+    header img {
+        max-width: 7vw;
+    }
+    div.name {
+        top: 4vh;
+        left: 20vw;
+        font-size: 4.6vw;
+    }
+    header ul {
+        top: 0.7vh;
+        font-size: 2.8vw;
+    }
+    header li a {
+        margin: 0vh 2vw;
+    }
+    /* HEADER */
+    article {
+        height: 45vh;
+        top: 11vh;
+    }
+    .quote {
+        top: 19vh;
+        font-size: 3.3vw;
+    }
+    .quote_author {
+        top: 21vh;
+        left: 30vw;
+        font-size: 3.3vw;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .first-eclipse, .second-eclipse {
+        display: none;
+    }
+    .first-horizontal-line, .second-horizontal-line {
+        display: none;
+    }
+    .aboutme {
+        width: 70vw;
+        height: 20vh;
+        top: 68vh;
+        left: 10vw;
+        padding: 3vh 5vw;
+    }
+    h1 {
+        margin: 0;
+        font-size: 4vw;
+        text-align: center;
+    }
+    p {
+        font-size: 2.7vw;
+        line-height: 4vh;
+        text-align: center;
+    }
+    .hobbies p {
+        margin-top: 1.5vh;
+    }
+    .hobbies {
+        width: 70vw;
+        height: 20vh;
+        top: 99vh;
+        left: 10vw;
+        padding: 3vh 5vw;
+    }
+    .hobbies ul {
+        margin: 0.5vh 0;
+        padding: 0;
+        font-size: 2.7vw;
+        line-height: 4vh;
+        text-align: center;
+    }
+    /* FOOTER */
+    footer {
+        height: 30vh;
+        top: 129vh;
+    }
+    .footer-nav {
+        padding-left: 4.5vw;
+    }
+    .footer-nav li a{
+        text-align: left;
+        font-size: 2.5vw;
+        padding: 1.1vh 0vw;
+    }
+    .left-quote {
+        width: 40vw;
+        top: 4.1vh;
+        left: 50.5vw;
+        font-size: 2.5vw;
+    }
+    .right-quote {
+        display: none;
+    }
+    .left-quote span {
+        line-height: 4vh;
+    }
+    .footer-horizontal-line {
+        width: 91vw;
+        height: 0.3vh;
+        top: 20vh;
+    }
+    .footer-name {
+        display: none;
+    }
+    address {
+        top: 21.5vh;
+        left: 10vw;
+        font-size: 2vw;
+        line-height: 2.5vh;
+        text-align: left;
+    }
+    ul.social-media {
+        right: 6vw;
+        top: 21vh;
+    }
+    .social-media a {
+        width: 8vw;
+        padding: 0;
+    }
+    .social-media img {
+        max-width: 60%;
+        height: auto;
+    }
+    /* FOOTER */
+}
+
+@media only screen and (max-width: 415px) {
+    /* HEADER */
+    header img {
+        max-width: 10vw;
+        left: 32vw;
+    }
+    div.name {
+        top: 2vh;
+        left: 47vw;
+        font-size: 6vw;
+    }
+    header ul {
+        top: 9vh;
+        left: 16vw;
+        font-size: 3.2vw;
+    }
+    header li a {
+        margin: 0vh 2vw;
+    }
+    /* HEADER */
+    article {
+        top: 17vh;
+        height: 38vh;
+    }
+    .quote {
+        position: absolute;
+        top: 20vh;
+        left: 9vw;
+        font-size: 3.7vw;
+    }
+    .quote_author {
+        top: 20vh;
+        left: 35vw;
+        font-size: 3.7vw;
+    }
+}
